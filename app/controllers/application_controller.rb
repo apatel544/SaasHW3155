@@ -4,8 +4,3 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
 
-def show
-  id = params[:id]
-  @movie - Movie.find(id)
-  
-end
